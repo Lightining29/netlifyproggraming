@@ -1,0 +1,499 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Data Analytics with SQL, Python &amp; Business Dashboards in Ghaziabad | Appletree Infotech</title>
+  <meta name="description" content="Master Data Analytics with SQL, Python &amp; Business Dashboards. In-depth hands-on curriculum, practical projects, code reviews, and career coaching at our RDC Ghaziabad campus.">
+  <link rel="canonical" href="https://programmingwala.netlify.app/courses/data-analytics/">
+  
+  <!-- Open Graph Metadata -->
+  <meta property="og:type" content="website">
+  <meta property="og:title" content="Data Analytics with SQL, Python &amp; Business Dashboards in Ghaziabad | Appletree Infotech">
+  <meta property="og:description" content="Master Data Analytics with SQL, Python &amp; Business Dashboards. In-depth hands-on curriculum, practical projects, code reviews, and career coaching at our RDC Ghaziabad campus.">
+  <meta property="og:url" content="https://programmingwala.netlify.app/courses/data-analytics/">
+  <meta property="og:site_name" content="Appletree Infotech">
+  <meta property="og:locale" content="en_IN">
+  
+  <!-- Twitter Card Metadata -->
+  <meta name="twitter:card" content="summary_large_image">
+  <meta name="twitter:title" content="Data Analytics with SQL, Python &amp; Business Dashboards in Ghaziabad | Appletree Infotech">
+  <meta name="twitter:description" content="Master Data Analytics with SQL, Python &amp; Business Dashboards. In-depth hands-on curriculum, practical projects, code reviews, and career coaching at our RDC Ghaziabad campus.">
+  
+  <!-- Favicon -->
+  <link rel="icon" type="image/svg+xml" href="../../assets/images/favicon.svg">
+
+  <!-- Stylesheets -->
+  <link rel="stylesheet" href="../../assets/css/style.css">
+  <link rel="stylesheet" href="../../assets/css/components.css">
+  
+  <!-- Structured Data JSON-LD -->
+  <script type="application/ld+json">
+[
+  {
+    "@context": "https://schema.org",
+    "@type": "EducationalOrganization",
+    "name": "Appletree Infotech",
+    "description": "Professional technical education institute specializing in Job-Ready Programming, Data Science, Full Stack & SEO training in Ghaziabad.",
+    "url": "https://programmingwala.netlify.app",
+    "telephone": "7503962162",
+    "address": {
+      "@type": "PostalAddress",
+      "streetAddress": "C-60 R.K Tower, 3rd Floor, RDC, Ghaziabad",
+      "addressLocality": "Ghaziabad",
+      "addressRegion": "Uttar Pradesh",
+      "addressCountry": "India",
+      "postalCode": "201001"
+    }
+  }
+]
+  </script>
+</head>
+<body>
+  <a href="#mainContent" class="skip-to-content">Skip to primary content</a>
+
+  <header class="site-header">
+    <div class="top-bar">
+      <div class="container top-bar-inner">
+        <div class="top-bar-location">
+          <span>Training Center: <strong>C-60 R.K Tower, 3rd Floor, RDC, Ghaziabad</strong></span>
+        </div>
+        <div>
+          <a href="tel:7503962162" class="top-bar-phone">
+            <svg width="14" height="14" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><path d="M22 16.92v3a2 2 0 0 1-2.18 2 19.79 19.79 0 0 1-8.63-3.07 19.5 19.5 0 0 1-6-6 19.79 19.79 0 0 1-3.07-8.67A2 2 0 0 1 4.11 2h3a2 2 0 0 1 2 1.72 12.84 12.84 0 0 0 .7 2.81 2 2 0 0 1-.45 2.11L8.09 9.91a16 16 0 0 0 6 6l1.27-1.27a2 2 0 0 1 2.11-.45 12.84 12.84 0 0 0 2.81.7A2 2 0 0 1 22 16.92z"/></svg>
+            Call Now: <strong>7503962162</strong>
+          </a>
+        </div>
+      </div>
+    </div>
+    
+    <div class="container nav-bar">
+      <a href="../../index.html" class="brand-logo" aria-label="Appletree Infotech - Technical Institute">
+        <div class="brand-logo-icon">AI</div>
+        <div class="brand-text">
+          <span class="brand-name">Appletree Infotech</span>
+          <span class="brand-tagline">Ghaziabad Technical Institute</span>
+        </div>
+      </a>
+      
+      <nav aria-label="Main Navigation">
+        <ul class="nav-menu">
+          <li><a href="../../index.html" class="nav-link">Home</a></li>
+          <li><a href="../../courses/java/index.html" class="nav-link">Java</a></li>
+          <li><a href="../../courses/python/index.html" class="nav-link">Python</a></li>
+          <li><a href="../../courses/data-science/index.html" class="nav-link">Data Science</a></li>
+          <li><a href="../../courses/mern-full-stack/index.html" class="nav-link">MERN Stack</a></li>
+          <li><a href="../../courses/seo/index.html" class="nav-link">SEO</a></li>
+          <li><a href="../../locations/ghaziabad/index.html" class="nav-link">Ghaziabad Center</a></li>
+          <li><a href="../../contact.html" class="nav-link">Contact</a></li>
+        </ul>
+      </nav>
+      
+      <div class="header-actions">
+        <a href="tel:7503962162" class="btn btn-cta btn-sm">
+          <svg width="14" height="14" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><path d="M22 16.92v3a2 2 0 0 1-2.18 2 19.79 19.79 0 0 1-8.63-3.07 19.5 19.5 0 0 1-6-6 19.79 19.79 0 0 1-3.07-8.67A2 2 0 0 1 4.11 2h3a2 2 0 0 1 2 1.72 12.84 12.84 0 0 0 .7 2.81 2 2 0 0 1-.45 2.11L8.09 9.91a16 16 0 0 0 6 6l1.27-1.27a2 2 0 0 1 2.11-.45 12.84 12.84 0 0 0 2.81.7A2 2 0 0 1 22 16.92z"/></svg>
+          Call 7503962162
+        </a>
+        <button id="mobileMenuToggle" class="btn-menu-toggle" aria-label="Toggle navigation menu" aria-expanded="false" aria-controls="mobileDrawer">
+          <svg width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><line x1="3" y1="12" x2="21" y2="12"/><line x1="3" y1="6" x2="21" y2="6"/><line x1="3" y1="18" x2="21" y2="18"/></svg>
+        </button>
+      </div>
+    </div>
+  </header>
+
+  <!-- Mobile Drawer -->
+  <div id="mobileOverlay" class="mobile-overlay" aria-hidden="true"></div>
+  <aside id="mobileDrawer" class="mobile-drawer" aria-hidden="true">
+    <div class="drawer-header">
+      <span class="brand-name">Navigation</span>
+      <button id="mobileDrawerClose" class="drawer-close" aria-label="Close navigation menu">&times;</button>
+    </div>
+    <ul class="drawer-links">
+      <li><a href="../../index.html">Home</a></li>
+      <li><a href="../../courses/java/index.html">Java Training</a></li>
+      <li><a href="../../courses/python/index.html">Python Training</a></li>
+      <li><a href="../../courses/data-science/index.html">Data Science Program</a></li>
+      <li><a href="../../courses/mern-full-stack/index.html">MERN Full Stack</a></li>
+      <li><a href="../../courses/seo/index.html">SEO & Digital Marketing</a></li>
+      <li><a href="../../courses/devops/index.html">DevOps & Cloud</a></li>
+      <li><a href="../../courses/sql/index.html">SQL & Databases</a></li>
+      <li><a href="../../locations/ghaziabad/index.html">Ghaziabad Center Details</a></li>
+      <li><a href="../../about.html">About Institute</a></li>
+      <li><a href="../../contact.html">Contact & Directions</a></li>
+    </ul>
+    <div class="mt-auto">
+      <a href="tel:7503962162" class="btn btn-accent btn-full">
+        <svg width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><path d="M22 16.92v3a2 2 0 0 1-2.18 2 19.79 19.79 0 0 1-8.63-3.07 19.5 19.5 0 0 1-6-6 19.79 19.79 0 0 1-3.07-8.67A2 2 0 0 1 4.11 2h3a2 2 0 0 1 2 1.72 12.84 12.84 0 0 0 .7 2.81 2 2 0 0 1-.45 2.11L8.09 9.91a16 16 0 0 0 6 6l1.27-1.27a2 2 0 0 1 2.11-.45 12.84 12.84 0 0 0 2.81.7A2 2 0 0 1 22 16.92z"/></svg>
+        Call 7503962162
+      </a>
+    </div>
+  </aside>
+
+  <main id="mainContent">
+    
+  <nav aria-label="Breadcrumb" class="breadcrumb-nav">
+    <div class="container">
+      <ul class="breadcrumbs">
+        <li><a href="../../index.html">Home</a></li><li><a href="../../courses/data-analytics/index.html">Courses</a></li><li aria-current="page">Data Analytics with SQL, Python &amp; Business Dashboards</li>
+      </ul>
+    </div>
+  </nav>
+  <script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "BreadcrumbList",
+  "itemListElement": [
+    {
+      "@type": "ListItem",
+      "position": 1,
+      "name": "Home",
+      "item": "https://programmingwala.netlify.app/index.html"
+    },
+    {
+      "@type": "ListItem",
+      "position": 2,
+      "name": "Courses",
+      "item": "https://programmingwala.netlify.app/courses/data-analytics/index.html"
+    },
+    {
+      "@type": "ListItem",
+      "position": 3,
+      "name": "Data Analytics with SQL, Python & Business Dashboards",
+      "item": "https://programmingwala.netlify.app/courses/data-analytics/index.html"
+    }
+  ]
+}
+  </script>
+
+    
+    <div class="container">
+      <div style="margin-bottom: var(--space-8);">
+        <span class="card-tag hot">Professional Track</span>
+        <h1>Data Analytics with SQL, Python &amp; Business Dashboards</h1>
+        <p class="lead" style="font-size: 1.2rem; color: var(--color-text-muted); max-width: 850px;">Master Data Analytics with SQL, Python &amp; Business Dashboards. In-depth hands-on curriculum, practical projects, code reviews, and career coaching at our RDC Ghaziabad campus.</p>
+        <div style="display: flex; gap: 1rem; flex-wrap: wrap; margin-top: 1.5rem;">
+          <a href="#inquiryFormSection" class="btn btn-accent">Get Syllabus &amp; Batch Details</a>
+          <a href="tel:7503962162" class="btn btn-cta">
+            <svg width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><path d="M22 16.92v3a2 2 0 0 1-2.18 2 19.79 19.79 0 0 1-8.63-3.07 19.5 19.5 0 0 1-6-6 19.79 19.79 0 0 1-3.07-8.67A2 2 0 0 1 4.11 2h3a2 2 0 0 1 2 1.72 12.84 12.84 0 0 0 .7 2.81 2 2 0 0 1-.45 2.11L8.09 9.91a16 16 0 0 0 6 6l1.27-1.27a2 2 0 0 1 2.11-.45 12.84 12.84 0 0 0 2.81.7A2 2 0 0 1 22 16.92z"/></svg>
+            Call 7503962162
+          </a>
+        </div>
+      </div>
+
+      
+
+      <div class="grid-2" style="margin-top: var(--space-12);">
+        <div>
+          <h2>Why Learn This Technology?</h2>
+          <p>Mastering Data Analytics with SQL, Python &amp; Business Dashboards provides critical advantages in modern production environments, ensuring solid code architecture and high system reliability.</p>
+
+          <h2>Who Should Take This Course?</h2>
+          <p>Software developers, college students, and engineering professionals seeking mastery.</p>
+
+          <h2>Course Prerequisites</h2>
+          <p>Basic programming fundamentals.</p>
+
+          <h2>Tools &amp; Frameworks Covered</h2>
+          <div class="roadmap-skills-tags" style="margin-bottom: var(--space-6);">
+            <span class="roadmap-tag">Modern Dev Tools</span><span class="roadmap-tag">VS Code</span><span class="roadmap-tag">Git</span><span class="roadmap-tag">CLI</span>
+          </div>
+        </div>
+
+        <div>
+          <h2>Career Opportunities &amp; Outcomes</h2>
+          <p>Graduates of this program are qualified for technical roles including:</p>
+          <ul>
+            <li><strong>Software Engineer</strong></li><li><strong>Specialist Developer</strong></li><li><strong>Systems Consultant</strong></li>
+          </ul>
+
+          <div style="background: #f8fafc; border: 1px solid var(--color-border); border-radius: var(--radius-md); padding: var(--space-6); margin-top: var(--space-6);">
+            <h4 style="margin-top: 0;">Ghaziabad Training Center Location</h4>
+            <p style="margin-bottom: 0.5rem;"><strong>Campus:</strong> C-60 R.K Tower, 3rd Floor, RDC, Ghaziabad</p>
+            <p style="margin-bottom: 1rem;"><strong>Inquiries:</strong> <a href="tel:7503962162">7503962162</a></p>
+            <a href="https://www.google.com/maps/search/?api=1&query=C-60+R.K+Tower+3rd+Floor+RDC+Ghaziabad+Uttar+Pradesh" target="_blank" rel="noopener noreferrer" class="btn btn-primary btn-sm">Get Directions</a>
+          </div>
+        </div>
+      </div>
+
+      <section style="margin-top: var(--space-16);">
+        <div class="section-header" style="text-align: left; margin-bottom: var(--space-8);">
+          <span class="section-badge">Comprehensive Curriculum</span>
+          <h2>Complete Course Syllabus</h2>
+          <p>Structured modular learning path from foundational concepts to production-grade implementation.</p>
+        </div>
+
+        <div class="syllabus-container">
+          
+    <div class="syllabus-module">
+      <div class="module-header">
+        <h3 class="module-title">Core Fundamentals &amp; Syntax</h3>
+        <span class="module-duration">Weeks 1-2</span>
+      </div>
+      <div class="module-content">
+        <ul class="module-topics">
+          <li class="topic-item"><span class="topic-bullet">&#10003;</span> <span>Architecture and setup</span></li><li class="topic-item"><span class="topic-bullet">&#10003;</span> <span>Syntax &amp; variables</span></li><li class="topic-item"><span class="topic-bullet">&#10003;</span> <span>Control flow &amp; functions</span></li>
+        </ul>
+      </div>
+    </div>
+  
+    <div class="syllabus-module">
+      <div class="module-header">
+        <h3 class="module-title">Advanced Architecture &amp; Integration</h3>
+        <span class="module-duration">Weeks 3-4</span>
+      </div>
+      <div class="module-content">
+        <ul class="module-topics">
+          <li class="topic-item"><span class="topic-bullet">&#10003;</span> <span>Modular design</span></li><li class="topic-item"><span class="topic-bullet">&#10003;</span> <span>Database persistence</span></li><li class="topic-item"><span class="topic-bullet">&#10003;</span> <span>Testing &amp; debugging</span></li>
+        </ul>
+      </div>
+    </div>
+  
+        </div>
+      </section>
+
+      <section style="margin-top: var(--space-12);">
+        <h2>Real-World Enterprise Projects</h2>
+        <p>You will write code for production scenarios, not just hello-world exercises:</p>
+        <div class="grid-2">
+          
+    <div class="course-card" style="margin-bottom: 1rem;">
+      <h4>Production Data Analytics with SQL, Python &amp; Business Dashboards Application</h4>
+      <p>Comprehensive capstone project demonstrating end-to-end integration and error handling.</p>
+    </div>
+  
+        </div>
+      </section>
+
+      <section style="margin-top: var(--space-12);">
+        <h2>Frequently Asked Questions</h2>
+        <div class="accordion-group">
+          
+    <details class="accordion-item">
+      <summary>Is this course suitable for beginners?</summary>
+      <div class="accordion-body">Yes, we start from foundations before advancing into complex enterprise topics.</div>
+    </details>
+  
+        </div>
+      </section>
+
+      
+  <div class="center-info-box">
+    <div class="center-info-grid">
+      <div>
+        <span class="card-tag">Physical Training Center</span>
+        <h3>Visit Our Ghaziabad Training Center</h3>
+        <p>Join classroom batches, attend interactive lab sessions, code with mentors, and take advantage of our high-speed dev workstations.</p>
+        
+        <div class="info-item">
+          <svg class="info-icon" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><path d="M21 10c0 7-9 13-9 13s-9-6-9-13a9 9 0 0 1 18 0z"/><circle cx="12" cy="10" r="3"/></svg>
+          <div>
+            <strong>Campus Address:</strong><br>
+            <span>C-60 R.K Tower, 3rd Floor, RDC, Ghaziabad, Ghaziabad, Uttar Pradesh</span>
+          </div>
+        </div>
+
+        <div class="info-item">
+          <svg class="info-icon" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><path d="M22 16.92v3a2 2 0 0 1-2.18 2 19.79 19.79 0 0 1-8.63-3.07 19.5 19.5 0 0 1-6-6 19.79 19.79 0 0 1-3.07-8.67A2 2 0 0 1 4.11 2h3a2 2 0 0 1 2 1.72 12.84 12.84 0 0 0 .7 2.81 2 2 0 0 1-.45 2.11L8.09 9.91a16 16 0 0 0 6 6l1.27-1.27a2 2 0 0 1 2.11-.45 12.84 12.84 0 0 0 2.81.7A2 2 0 0 1 22 16.92z"/></svg>
+          <div>
+            <strong>Direct Counseling Helpline:</strong><br>
+            <a href="tel:7503962162">Call 7503962162</a>
+          </div>
+        </div>
+      </div>
+      
+      <div style="display: flex; flex-direction: column; justify-content: center; gap: 1rem;">
+        <a href="https://www.google.com/maps/search/?api=1&query=C-60+R.K+Tower+3rd+Floor+RDC+Ghaziabad+Uttar+Pradesh" target="_blank" rel="noopener noreferrer" class="btn btn-accent btn-full">
+          <svg width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><polygon points="3 11 22 2 13 21 11 13 3 11"/></svg>
+          Get Google Maps Directions
+        </a>
+        <a href="tel:7503962162" class="btn btn-primary btn-full">
+          <svg width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><path d="M22 16.92v3a2 2 0 0 1-2.18 2 19.79 19.79 0 0 1-8.63-3.07 19.5 19.5 0 0 1-6-6 19.79 19.79 0 0 1-3.07-8.67A2 2 0 0 1 4.11 2h3a2 2 0 0 1 2 1.72 12.84 12.84 0 0 0 .7 2.81 2 2 0 0 1-.45 2.11L8.09 9.91a16 16 0 0 0 6 6l1.27-1.27a2 2 0 0 1 2.11-.45 12.84 12.84 0 0 0 2.81.7A2 2 0 0 1 22 16.92z"/></svg>
+          Call Now: 7503962162
+        </a>
+        <a href="../../locations/ghaziabad/index.html" class="btn btn-secondary btn-full">
+          Explore Ghaziabad Training Hub
+        </a>
+      </div>
+    </div>
+  </div>
+
+    </div>
+
+    
+  <section class="section section-muted" id="inquiryFormSection">
+    <div class="container">
+      <div class="section-header">
+        <span class="section-badge">Direct Course Admissions</span>
+        <h2>Speak with a Course Mentor or Counselor</h2>
+        <p>Receive syllabus details, batch timings, hands-on lab plans, and career roadmaps without sales pressure.</p>
+      </div>
+      
+      <div style="max-width: 680px; margin: 0 auto; background: var(--color-surface); padding: var(--space-8); border-radius: var(--radius-lg); border: 1px solid var(--color-border); box-shadow: var(--shadow-md);">
+        <form class="js-contact-form" novalidate>
+          <div class="form-success-banner" tabindex="-1">
+            <strong>Thank you!</strong> Your inquiry has been logged. Our academic team at C-60 R.K Tower, 3rd Floor, RDC, Ghaziabad will contact you shortly via phone/WhatsApp.
+          </div>
+          
+          <div class="form-group">
+            <label class="form-label" for="fullName">Student / Candidate Full Name *</label>
+            <input type="text" id="fullName" name="fullName" class="form-control" placeholder="e.g. Rahul Sharma" required autocomplete="name">
+            <span id="nameError" class="form-error-msg" role="alert"></span>
+          </div>
+          
+          <div class="form-group">
+            <label class="form-label" for="phone">Active Mobile / WhatsApp Number *</label>
+            <input type="tel" id="phone" name="phone" class="form-control" placeholder="e.g. 7503962162" required autocomplete="tel">
+            <span id="phoneError" class="form-error-msg" role="alert"></span>
+          </div>
+
+          <div class="form-group">
+            <label class="form-label" for="email">Email Address *</label>
+            <input type="email" id="email" name="email" class="form-control" placeholder="e.g. rahul@example.com" required autocomplete="email">
+            <span id="emailError" class="form-error-msg" role="alert"></span>
+          </div>
+
+          <div class="form-group">
+            <label class="form-label" for="courseInterest">Select Course / Specialization Track *</label>
+            <select id="courseInterest" name="courseInterest" class="form-control" required>
+              <option value="">-- Choose Your Learning Track --</option>
+              <option value="Java Full Stack Development">Java Full Stack & Spring Boot Microservices</option>
+              <option value="Python & Django Automation">Python Developer & Backend Engineering</option>
+              <option value="Data Science & Machine Learning">Data Science, Pandas & ML Engineering</option>
+              <option value="MERN Full Stack Development">MERN Stack (React, Node, Express, MongoDB)</option>
+              <option value="Technical SEO & Performance">Technical SEO & Digital Marketing Strategy</option>
+              <option value="DevOps & AWS Cloud">DevOps, Docker, Kubernetes & AWS Cloud</option>
+              <option value="SQL & Relational Databases">SQL, MySQL & Database Engineering</option>
+              <option value="Data Structures & Algorithms">Data Structures, Algorithms (DSA) & Coding Prep</option>
+            </select>
+            <span id="courseError" class="form-error-msg" role="alert"></span>
+          </div>
+
+          <div class="form-group">
+            <label class="form-label" for="message">Current Background / Educational Goals (Optional)</label>
+            <textarea id="message" name="message" class="form-control" rows="3" placeholder="Tell us if you are a college student, working professional, or preparing for developer job switches..."></textarea>
+            <span id="messageError" class="form-error-msg" role="alert"></span>
+          </div>
+
+          <button type="submit" class="btn btn-primary btn-full btn-lg">Submit Course Inquiry</button>
+          
+          <p style="font-size: 0.825rem; color: var(--color-text-subtle); margin-top: 1rem; text-align: center;">
+            Prefer immediate answers? Call <a href="tel:7503962162"><strong>7503962162</strong></a> or visit <strong>C-60 R.K Tower, 3rd Floor, RDC, Ghaziabad</strong>.
+          </p>
+        </form>
+      </div>
+    </div>
+  </section>
+
+  </main>
+  
+  <footer class="site-footer">
+    <div class="container">
+      <div class="footer-grid">
+        <div class="footer-col">
+          <div class="brand-logo" style="margin-bottom: 1rem;">
+            <div class="brand-logo-icon" style="background: #ffffff; color: var(--color-primary-dark);">AI</div>
+            <div class="brand-text">
+              <span class="brand-name" style="color: #ffffff;">Appletree Infotech</span>
+              <span class="brand-tagline" style="color: var(--color-accent-light);">Ghaziabad Technical Institute</span>
+            </div>
+          </div>
+          <p>Practical, job-ready programming, data science, full stack web development, and ethical SEO coaching. Learn in real lab environments with hands-on enterprise codebases.</p>
+          <p style="color: #ffffff; font-weight: 600;">
+            Training Center Location:<br>
+            <span style="color: #94a3b8; font-weight: normal;">C-60 R.K Tower, 3rd Floor, RDC, Ghaziabad, Ghaziabad, Uttar Pradesh</span>
+          </p>
+          <p>
+            <a href="tel:7503962162" class="btn btn-accent btn-sm">
+              <svg width="14" height="14" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><path d="M22 16.92v3a2 2 0 0 1-2.18 2 19.79 19.79 0 0 1-8.63-3.07 19.5 19.5 0 0 1-6-6 19.79 19.79 0 0 1-3.07-8.67A2 2 0 0 1 4.11 2h3a2 2 0 0 1 2 1.72 12.84 12.84 0 0 0 .7 2.81 2 2 0 0 1-.45 2.11L8.09 9.91a16 16 0 0 0 6 6l1.27-1.27a2 2 0 0 1 2.11-.45 12.84 12.84 0 0 0 2.81.7A2 2 0 0 1 22 16.92z"/></svg>
+              Call 7503962162
+            </a>
+          </p>
+        </div>
+        
+        <div class="footer-col">
+          <h4>Core Courses</h4>
+          <ul class="footer-links">
+            <li><a href="../../courses/java/index.html">Java Training</a></li>
+            <li><a href="../../courses/python/index.html">Python Course</a></li>
+            <li><a href="../../courses/data-science/index.html">Data Science Track</a></li>
+            <li><a href="../../courses/mern-full-stack/index.html">MERN Full Stack</a></li>
+            <li><a href="../../courses/seo/index.html">SEO Flagship Course</a></li>
+            <li><a href="../../courses/spring-boot/index.html">Spring Boot & Microservices</a></li>
+            <li><a href="../../courses/devops/index.html">DevOps & Cloud</a></li>
+            <li><a href="../../courses/sql/index.html">SQL & Databases</a></li>
+          </ul>
+        </div>
+        
+        <div class="footer-col">
+          <h4>Ghaziabad Hubs</h4>
+          <ul class="footer-links">
+            <li><a href="../../courses/java/ghaziabad/index.html">Java in Ghaziabad</a></li>
+            <li><a href="../../courses/python/ghaziabad/index.html">Python in Ghaziabad</a></li>
+            <li><a href="../../courses/data-science/ghaziabad/index.html">Data Science in Ghaziabad</a></li>
+            <li><a href="../../courses/mern-full-stack/ghaziabad/index.html">MERN in Ghaziabad</a></li>
+            <li><a href="../../courses/seo/ghaziabad/index.html">SEO in Ghaziabad</a></li>
+            <li><a href="../../locations/ghaziabad/index.html">RDC Training Center</a></li>
+            <li><a href="../../locations/ghaziabad/devops/index.html">DevOps Ghaziabad</a></li>
+          </ul>
+        </div>
+        
+        <div class="footer-col">
+          <h4>Tutorials & Prep</h4>
+          <ul class="footer-links">
+            <li><a href="../../tutorials/java/hashmap/index.html">Java HashMap Guide</a></li>
+            <li><a href="../../tutorials/java/multithreading/index.html">Multithreading Tutorial</a></li>
+            <li><a href="../../tutorials/python/pandas-basics/index.html">Pandas Data Analysis</a></li>
+            <li><a href="../../tutorials/seo/technical-seo-checklist/index.html">Technical SEO Guide</a></li>
+            <li><a href="../../interview-questions/java/index.html">Java Interview Prep</a></li>
+            <li><a href="../../interview-questions/python/index.html">Python Interview Prep</a></li>
+            <li><a href="../../interview-questions/sql/index.html">SQL Interview Prep</a></li>
+          </ul>
+        </div>
+
+        <div class="footer-col">
+          <h4>Career Roadmaps</h4>
+          <ul class="footer-links">
+            <li><a href="../../career/java-developer-roadmap/index.html">Java Developer Roadmap</a></li>
+            <li><a href="../../career/python-developer-roadmap/index.html">Python Developer Roadmap</a></li>
+            <li><a href="../../career/full-stack-developer-roadmap/index.html">Full Stack Roadmap</a></li>
+            <li><a href="../../career/data-scientist-roadmap/index.html">Data Scientist Roadmap</a></li>
+            <li><a href="../../career/devops-engineer-roadmap/index.html">DevOps Engineer Roadmap</a></li>
+            <li><a href="../../career/seo-specialist-roadmap/index.html">SEO Specialist Roadmap</a></li>
+            <li><a href="../../about.html">About Institute</a></li>
+            <li><a href="../../contact.html">Contact Us</a></li>
+          </ul>
+        </div>
+      </div>
+      
+      <div class="footer-bottom">
+        <div>
+          &copy; 2026 Appletree Infotech. Technical Education &amp; Software Development Institute.
+        </div>
+        <ul class="footer-legal-links">
+          <li><a href="../../about.html">About</a></li>
+          <li><a href="../../contact.html">Contact</a></li>
+          <li><a href="../../privacy-policy.html">Privacy Policy</a></li>
+          <li><a href="../../terms.html">Terms of Service</a></li>
+          <li><a href="../../disclaimer.html">Academic Disclaimer</a></li>
+          <li><a href="../../cookie-policy.html">Cookie Policy</a></li>
+        </ul>
+      </div>
+    </div>
+  </footer>
+
+  <!-- Sticky Bottom Mobile Action Bar -->
+  <div class="mobile-sticky-bar">
+    <a href="tel:7503962162" class="btn btn-cta">
+      <svg width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><path d="M22 16.92v3a2 2 0 0 1-2.18 2 19.79 19.79 0 0 1-8.63-3.07 19.5 19.5 0 0 1-6-6 19.79 19.79 0 0 1-3.07-8.67A2 2 0 0 1 4.11 2h3a2 2 0 0 1 2 1.72 12.84 12.84 0 0 0 .7 2.81 2 2 0 0 1-.45 2.11L8.09 9.91a16 16 0 0 0 6 6l1.27-1.27a2 2 0 0 1 2.11-.45 12.84 12.84 0 0 0 2.81.7A2 2 0 0 1 22 16.92z"/></svg>
+      Call 7503962162
+    </a>
+    <a href="#inquiryFormSection" class="btn btn-primary">
+      Get Course Details
+    </a>
+  </div>
+
+  <!-- Scripts -->
+  <script src="../../assets/js/main.js" defer></script>
+  <script src="../../assets/js/form.js" defer></script>
+</body>
+</html>

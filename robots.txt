@@ -1,0 +1,16 @@
+# ==============================================================================
+# ROBOTS.TXT - APPLETREE INFOTECH
+# Default: https://programmingwala.netlify.app/
+# Full Access for Googlebot, Bingbot, and All Search Engine Crawlers
+# ==============================================================================
+
+User-agent: *
+Allow: /
+
+# Allow crawling of all CSS, JS, and image assets for full page rendering
+Allow: /assets/css/
+Allow: /assets/js/
+Allow: /assets/images/
+
+# Primary XML Sitemap
+Sitemap: https://programmingwala.netlify.app/sitemap.xml
