@@ -20,7 +20,7 @@ function getAllHtmlFiles(dir, fileList = []) {
       if (file !== 'node_modules' && file !== '.git') {
         getAllHtmlFiles(filePath, fileList);
       }
-    } else if (file.endsWith('.html')) {
+    } else if (file.endsWith('.html') && !file.startsWith('google')) {
       fileList.push(filePath);
     }
   }
