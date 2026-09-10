@@ -64,6 +64,7 @@ function renderHead({ title, description, canonicalUrl, ogType = 'website', sche
   <title>${escapeHtml(title)}</title>
   <meta name="description" content="${escapeHtml(description)}">
   <link rel="canonical" href="${fullCanonical}">
+  <meta name="google-site-verification" content="google516be02d92410125">
   
   <!-- Open Graph Metadata -->
   <meta property="og:type" content="${ogType}">
