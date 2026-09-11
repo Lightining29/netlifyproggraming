@@ -48,7 +48,7 @@ while (it.hasNext()) {
         it.remove(); // Safe and supported
     }
 }`,
-        scenario: 'In an active multiplayer game server, broadcasting player positions to connected clients while new players join requires fail-safe collections like CopyOnWriteArrayList to avoid crashes during tick cycles.',
+        scenario: 'In an active high-throughput messaging server, broadcasting telemetry to connected clients while new clients connect requires fail-safe collections like CopyOnWriteArrayList to avoid crashes during write cycles.',
         proTip: 'Mention that fail-safe iterators trade off memory consumption because CopyOnWrite collections copy the entire underlying array on every write operation.',
         mistake: 'Assuming that fail-fast iterators guarantee thread-safety. Fail-fast is only a best-effort bug detection mechanism, not a concurrency synchronization strategy.',
         relatedQ: 'How does ConcurrentHashMap achieve high concurrency without locking the entire table?'

@@ -254,7 +254,7 @@ while (it.hasNext()) {
         
 
         <span class="interview-section-label">Real-World Enterprise Scenario</span>
-        <p>In an active multiplayer game server, broadcasting player positions to connected clients while new players join requires fail-safe collections like CopyOnWriteArrayList to avoid crashes during tick cycles.</p>
+        <p>In an active high-throughput messaging server, broadcasting telemetry to connected clients while new clients connect requires fail-safe collections like CopyOnWriteArrayList to avoid crashes during write cycles.</p>
 
         <div class="interview-pro-tip">
           <strong>Interviewer Pro Tip:</strong> Mention that fail-safe iterators trade off memory consumption because CopyOnWrite collections copy the entire underlying array on every write operation.

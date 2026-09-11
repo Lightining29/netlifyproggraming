@@ -1013,9 +1013,9 @@ const COURSES = [
     badge: 'High Performance',
     duration: '10 Weeks (Practical Lab Track)',
     prerequisites: 'Basic C or programming knowledge.',
-    targetAudience: 'Competitive programmers, game development aspirants, and software engineering students.',
+    targetAudience: 'Competitive programmers, systems developers, and software engineering students.',
     overview: 'C++ combines the raw speed and hardware control of C with rich object-oriented and generic programming capabilities.',
-    whyLearn: 'Dominant in game engines (Unreal), competitive programming, high-frequency trading, and robotics.',
+    whyLearn: 'Dominant in systems programming, high-performance computing, high-frequency trading, and robotics.',
     tools: ['GCC / Clang', 'C++20', 'VS Code', 'GDB'],
     modules: [
       {
@@ -1040,7 +1040,7 @@ const COURSES = [
         description: 'Thread-safe in-memory cache utilizing STL containers, templates, and smart pointers.'
       }
     ],
-    careerOutcomes: ['C++ Software Engineer', 'Game Developer', 'Competitive Programming Specialist'],
+    careerOutcomes: ['C++ Software Engineer', 'Systems Programmer', 'Competitive Programming Specialist'],
     faqs: [
       { question: 'Does this course help with competitive programming?', answer: 'Yes, in-depth mastery of the C++ STL gives you an immense algorithmic advantage.' }
     ]
